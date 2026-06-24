@@ -44,6 +44,13 @@ img{
     background:#0056b3;
 }
 
+.resume-btn{
+    background:#1f4e79;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
 p,li{
     font-size:16px;
 }
