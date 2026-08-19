@@ -144,4 +144,6 @@ footer {
     .projects-container {
         grid-template-columns: 1fr;
     }
+}late-columns: 1fr;
+    }
 }
