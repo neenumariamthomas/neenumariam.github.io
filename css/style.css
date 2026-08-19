@@ -270,3 +270,21 @@ footer {
         line-height: 1.8;
     }
 }
+
+.about-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #d6dce5;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+}
+
+.about-card p {
+    line-height: 1.7;
+    margin: 0 0 15px;
+}
+
+.about-card p:last-child {
+    margin-bottom: 0;
+}
