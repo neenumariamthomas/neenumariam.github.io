@@ -374,3 +374,33 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.security-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.security-card {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid #d5dce5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.security-card h3 {
+    color: #174a7e;
+    margin-top: 0;
+}
+
+.security-card p {
+    line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+    .security-container {
+        grid-template-columns: 1fr;
+    }
+}
