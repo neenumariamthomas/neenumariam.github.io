@@ -477,3 +477,11 @@ footer {
         font-size: 15px;
     }
 }
+
+.hero-summary {
+    max-width: 750px;
+    margin: 25px auto 0;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #444;
+}
