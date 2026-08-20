@@ -1579,3 +1579,66 @@ body.page-loaded {
         transform: translateY(20px);
     }
 }
+
+/* =========================================================
+   ENHANCED PROJECT CARDS
+========================================================= */
+
+.project-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 18px;
+}
+
+.project-number {
+    color: #3d4a58;
+
+    font-size: 0.75rem;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+.project-highlights {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-bottom: 22px;
+}
+
+
+.project-highlights span {
+    padding: 6px 9px;
+
+    background: rgba(0, 245, 160, 0.04);
+
+    border-left: 2px solid rgba(0, 245, 160, 0.45);
+
+    color: #8d9aaa;
+
+    font-size: 0.68rem;
+}
+
+
+.project-card:hover .project-number {
+    color: #00f5a0;
+
+    transition: 0.3s ease;
+}
+
+
+.project-card:hover .project-icon {
+    transform: translateY(-3px);
+
+    transition: 0.3s ease;
+}
+
+
+.project-icon {
+    transition: 0.3s ease;
+}
