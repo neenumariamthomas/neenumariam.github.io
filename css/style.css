@@ -404,3 +404,76 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .hero {
+        padding-top: 15px;
+    }
+
+    .profile-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .hero h2 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .contact-info {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-buttons a {
+        width: 80%;
+        text-align: center;
+    }
+
+    .skills-container,
+    .projects-container,
+    .certifications-container,
+    .security-container,
+    .services-container,
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-category,
+    .project-card,
+    .certificate-card,
+    .security-card,
+    .service-card,
+    .contact-card,
+    .about-card,
+    .experience-card {
+        padding: 18px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    p,
+    li {
+        font-size: 15px;
+    }
+}
